@@ -1,3 +1,10 @@
+@font-face {
+    font-family: F16;
+    src: url("/Balancegroovyregular-RpZzl.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
 .sidenav {
     font-family: "Balance Groovy";
     height: 100%; /* 100% Full-height */
