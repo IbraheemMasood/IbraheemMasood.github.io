@@ -1,0 +1,60 @@
+.sidenav {
+    font-family: "Balance Groovy";
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #292929; /* Very dark gray*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 25px; /* Place content 60px from the top */
+    text-align: left;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border: thin none #DAD2D8;
+
+}
+
+body{
+    font-family: "Balance Groovy";
+    color: #DAD2D8;
+}
+header{
+    color: #DAD2D8;
+    font-size: 36px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.closebtn {
+    position: absolute;
+    float: right;
+    right: 0;
+    padding-right: 15px;
+    font-size: 0;
+    margin-left: 50px;
+    color: #DAD2D8;
+}
+
+body{
+    background-color: #222;
+}
+
+.p1{
+    font-size: 14px;
+}
+.main{
+    text-align: left;
+    position:absolute;
+    top: 15%;
+    right: 50%;
+    align-self: center;
+
+}
+
+
+span{
+    color: #DAD2D8;
+    font-weight: bolder;
+    font-size: 40px;
+}
