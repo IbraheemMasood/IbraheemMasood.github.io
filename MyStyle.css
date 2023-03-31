@@ -1,12 +1,15 @@
 @font-face {
-    font-family: Balance Groovy;
-    src: url("https://github.com/IbraheemMasood/IbraheemMasood.github.io/blob/master/Balancegroovyregular-RpZzl.otf?raw=true") format("opentype");
-    font-weight: bold;
+    font-family: 'Balance Groovy';
+    src: url('BalanceGroovyRegular.woff2') format('woff2'),
+    url('BalanceGroovyRegular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
+
 .sidenav {
-    font-family: "Balance Groovy";
+    font-family: 'Balance Groovy';
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -23,7 +26,7 @@
 }
 
 body{
-    font-family: "Balance Groovy";
+    font-family: 'Balance Groovy';
     color: #DAD2D8;
 }
 header{
