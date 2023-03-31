@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Balance Groovy';
-    src: url('BalanceGroovyRegular.woff2') format('woff2'),
-    url('BalanceGroovyRegular.woff') format('woff');
+    src: url('https://github.com/IbraheemMasood/IbraheemMasood.github.io/blob/master/BalanceGroovyRegular.woff2?raw=true') format('woff2'),
+    url('https://github.com/IbraheemMasood/IbraheemMasood.github.io/blob/master/BalanceGroovyRegular.woff?raw=true') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
