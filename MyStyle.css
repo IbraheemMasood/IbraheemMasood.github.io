@@ -35,6 +35,11 @@ header{
     padding-left: 15px;
     padding-bottom: 10px;
 }
+a:link, a:visited{
+text-decoration: none;
+color: #DAD2D8;
+
+}
 
 .closebtn {
     position: absolute;
