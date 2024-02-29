@@ -36,6 +36,7 @@ html, body {
     height: 100%;
     overflow: clip;;
     margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -49,6 +50,9 @@ h1 {
     background-color: #F8F4F9;
     color: #000000;
     text-align: center;
+}
+.expandedView{
+    max-height: 90vh;
 }
 
 .title {
@@ -104,8 +108,9 @@ h1 {
 #left:hover {
     box-shadow: inset 100vw 0 0 0 #BEA7E5;
     color: #000000;
-    height: 100vh;
+    height: 90vh ;
     width: 700vw;
+
 }
 
 #left:hover .title {
@@ -133,6 +138,7 @@ h1 {
     text-align: center;
     box-shadow: inset 0 0 0 0 #BEA7E5;
     color: #000000;;
+
 }
 
 #center:hover {
