@@ -121,6 +121,8 @@ h1 {
 }
 
 #center {
+    flex-grow: 1;
+    flex-shrink: 1;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out, width .3s ease-in-out, height .3s ease-in-out, border-radius .3s ease-in-out;
     border: solid #BEA7E5 5px;
     border-radius: 5px;
@@ -194,3 +196,54 @@ h1 {
     display: flex;
 }
 
+@media only screen and (max-width: 768px) {
+    #resumeContainer {
+        flex-direction: column;
+        flex-shrink: 1;
+
+        overflow: scroll;
+    }
+
+    h1 {
+        height: 12%;
+        font-size: large;
+    }
+
+
+    #left {
+        width: 100vw;
+        height: 28vh;
+    }
+
+    #center {
+        width: 100vw;
+        height: 28vh;
+    }
+
+    #right {
+        width: 100vw;
+        height: 28vh;
+    }
+
+    #left:hover {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #center:hover {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #right:hover {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    td {
+        width: 80vw;
+    }
+    li{
+        width: 100vw;
+    }
+}
