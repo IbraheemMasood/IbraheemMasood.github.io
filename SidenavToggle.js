@@ -9,8 +9,6 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("mySidenav").style.borderRightStyle= "solid";
     document.getElementById("closebtn").style.fontSize = "36px";
-    console.log("A")
-
 }
 
 /* Set the width of the side navigation to 0 */

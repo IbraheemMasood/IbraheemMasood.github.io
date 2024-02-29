@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Balance Groovy';
-    src: url('https://ibraheemmasood.github.io/BalanceGroovyRegular.woff2') format('woff2'),
-    url('https://ibraheemmasood.github.io/BalanceGroovyRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
 .sidenav {
     font-family: 'Balance Groovy';
     height: 100%; /* 100% Full-height */
@@ -16,29 +6,12 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #292929; /* Very dark gray*/
+    background-color: #BEA7E5; /* Very dark gray*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 25px; /* Place content 60px from the top */
     text-align: left;
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    border: thin none #DAD2D8;
-
-}
-
-body{
-    font-family: 'Balance Groovy';
-    color: #DAD2D8;
-}
-header{
-    color: #DAD2D8;
-    font-size: 36px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-}
-a:link, a:visited{
-text-decoration: none;
-color: #DAD2D8;
-
+    border: thin none #F8F4F9;
 }
 
 .closebtn {
@@ -48,28 +21,176 @@ color: #DAD2D8;
     padding-right: 15px;
     font-size: 0;
     margin-left: 50px;
-    color: #DAD2D8;
+    color: #000000;
+
 }
 
-body{
-    background-color: #222;
+/** {*/
+/*    border: red;*/
+/*    border:1px;*/
+/*    border-style: solid;*/
+/*}*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: clip;;
+    margin: 0;
 }
 
-.p1{
-    font-size: 14px;
+h1 {
+    padding-top: 10px;
+    font-family: 'Balance Groovy';
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0;
+    width: 100vw;
+    height: 7.5%;
+    background-color: #F8F4F9;
+    color: #000000;
+    text-align: center;
 }
-.main{
+
+.title {
+    font-family: 'Balance Groovy';
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.expandedView {
+    padding: 20px;
+    overflow: auto;
+    height: 100%;
+}
+
+.expandedView table {
+    line-height: 5vh;
     text-align: left;
+    padding: 20px;
+    font-size: small;
+    border-collapse: separate;
+    table-layout: fixed;
+    height: 10vh;
+}
 
-    /*position:absolute;*/
-    /*top: 15%;*/
-    /*right: 50%;*/
+.expandedView table li {
+    width: 80%;
+}
+
+.Workplace {
+    font-weight: bold;
+    height: 5vh;
+
+}
+
+.date {
+
+}
+
+#left {
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, width .3s ease-in-out, height .3s ease-in-out, border-radius .3s ease-in-out;
+    border: solid #BEA7E5 5px;
+    border-radius: 5px;
+    float: left;
+    background-color: #F8F4F9;
+    width: 100%;
+    height: 100vh;
+    line-height: 50vh;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #BEA7E5;
+    color: #000000;
+}
+
+#left:hover {
+    box-shadow: inset 100vw 0 0 0 #BEA7E5;
+    color: #000000;
+    height: 100vh;
+    width: 700vw;
+}
+
+#left:hover .title {
+    display: none;
+}
+
+#left .expandedView {
+    display: none;
+}
+
+#left:hover .expandedView {
+    display: flex;
+}
+
+#center {
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, width .3s ease-in-out, height .3s ease-in-out, border-radius .3s ease-in-out;
+    border: solid #BEA7E5 5px;
+    border-radius: 5px;
+    background-color: #F8F4F9;
+    width: 100%;
+    height: 100vh;
+    line-height: 50vh;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #BEA7E5;
+    color: #000000;;
+}
+
+#center:hover {
+    box-shadow: inset 100vw 0 0 0 #BEA7E5;
+    color: #000000;
+    height: 70vw;
+    width: 700vw;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, width .3s ease-in-out, height .3s ease-in-out, display .3s ease-in-out;
+
+
+}
+
+#center:hover .title {
+    display: none;
+}
+
+#center .expandedView {
+    display: none;
+}
+
+#center:hover .expandedView {
+    display: flex;
+}
+
+#right {
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, width .3s ease-in-out, height .3s ease-in-out, border-radius .3s ease-in-out;
+    border: solid #BEA7E5 5px;
+    border-radius: 5px;
+    background-color: #F8F4F9;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    line-height: 50vh;
+    box-shadow: inset 0 0 0 0 #BEA7E5;
+    color: #000000;
+}
+
+#right:hover {
+    box-shadow: inset 100vw 0 0 0 #BEA7E5;
+    color: #000000;
+    height: 100vw;
+    width: 700vw;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, width .3s ease-in-out, height .3s ease-in-out, display .3s ease-in-out;
 
 }
 
 
-span{
-    color: #DAD2D8;
-    font-weight: bolder;
-    font-size: 40px;
+#right:hover .title {
+    display: none;
 }
+
+#right .expandedView {
+    display: none;
+}
+
+#right:hover .expandedView {
+    display: flex;
+}
+
+#resumeContainer {
+    display: flex;
+}
+
