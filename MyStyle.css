@@ -51,7 +51,8 @@ h1 {
     color: #000000;
     text-align: center;
 }
-.expandedView{
+
+.expandedView {
     max-height: calc(100vh - 120px);
 }
 
@@ -108,7 +109,7 @@ h1 {
 #left:hover {
     box-shadow: inset 100vw 0 0 0 #BEA7E5;
     color: #000000;
-    height: 90vh ;
+    height: 90vh;
     width: 700vw;
 
 }
@@ -217,16 +218,22 @@ h1 {
 
 
     #left {
+        line-height: 5em;
+
         width: 98vw;
         height: 28vh;
     }
 
     #center {
+        line-height: 5em;
+
         width: 98vw;
         height: 28vh;
     }
 
     #right {
+        line-height: 5em;
+
         width: 98vw;
         height: 28vh;
     }
@@ -249,7 +256,8 @@ h1 {
     td {
         width: 80vw;
     }
-    li{
+
+    li {
         width: 100vw;
     }
 
