@@ -52,7 +52,7 @@ h1 {
     text-align: center;
 }
 .expandedView{
-    max-height: 90vh;
+    max-height: calc(100vh - 120px);
 }
 
 .title {
@@ -217,33 +217,33 @@ h1 {
 
 
     #left {
-        width: 100vw;
+        width: 98vw;
         height: 28vh;
     }
 
     #center {
-        width: 100vw;
+        width: 98vw;
         height: 28vh;
     }
 
     #right {
-        width: 100vw;
+        width: 98vw;
         height: 28vh;
     }
 
     #left:hover {
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
     }
 
     #center:hover {
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
     }
 
     #right:hover {
         width: 100vw;
-        height: 100vh;
+        height: 29vh;
     }
 
     td {
@@ -252,4 +252,5 @@ h1 {
     li{
         width: 100vw;
     }
+
 }
