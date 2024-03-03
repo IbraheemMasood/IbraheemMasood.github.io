@@ -237,6 +237,9 @@ input {
 }
 
 @media only screen and (max-width: 768px) {
+    *{
+        background-color: #F8F4F9;
+    }
     #resumeContainer {
         display: none;
     }
@@ -249,7 +252,6 @@ input {
         display: block;
         font-family: "Bebas Neue", sans-serif;
         text-align: center;
-        background-color: #F8F4F9;
         padding: 30vh 20px 20px;
 
     }
