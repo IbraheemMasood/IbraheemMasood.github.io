@@ -249,7 +249,9 @@ input {
         display: block;
         font-family: "Bebas Neue", sans-serif;
         text-align: center;
-        padding-top: 30vh;
+        background-color: #F8F4F9;
+        padding: 30vh 20px 20px;
+
     }
 
     /*#resumeContainer {*/
