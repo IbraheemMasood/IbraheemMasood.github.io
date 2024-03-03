@@ -4,6 +4,9 @@ window.onload = function () {
     document.getElementById("darkmodeToggle").addEventListener("click", toggleLight)
 }
 let light = true;
+if (!("ontouchstart" in document.documentElement)) {
+    document.documentElement.className += " no-touch";
+}
 
 
 /* Set the width of the side navigation to 250 */
