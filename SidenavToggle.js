@@ -28,7 +28,7 @@ function toggleLight() {
 
     if (light) {
         document.body.style.backgroundColor = "#000000"
-        document.getElementById("resumeContainer").style.border = "2px solid #F8F4F9"
+        document.getElementById("contentContainer").style.border = "2px solid #F8F4F9"
         document.getElementById("topBar").style.backgroundColor = "#000000"
         document.getElementById("topBar").style.color = "#F8F4F9"
         document.getElementById("left").style.backgroundColor = "#000000"
@@ -42,10 +42,11 @@ function toggleLight() {
 
         document.getElementById("darkmodeToggle").style.color = "#F8F4F9"
         document.getElementById("darkmodeToggle").textContent = "light mode"
+
         light = false
     } else {
         document.body.style.backgroundColor = "#F8F4F9"
-        document.getElementById("resumeContainer").style.border = "2px solid #000000"
+        document.getElementById("contentContainer").style.border = "2px solid #000000"
         document.getElementById("topBar").style.backgroundColor = "#F8F4F9"
         document.getElementById("topBar").style.color = "#000000"
         document.getElementById("left").style.backgroundColor = "#F8F4F9"
